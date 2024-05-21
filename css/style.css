@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /*全体 共通部分 */
 
 #concept,
@@ -358,6 +357,9 @@ img.grayscale-sky {
     text-align: left;
     /* padding-top: 5%; */
   }
+  .text__wrapper{
+    margin-left: 0;
+   } 
 }
 
 /* プロフィール767px以下はここから読み込み */
@@ -603,7 +605,8 @@ textarea {
   cursor: pointer;
 }
 ::placeholder{
-  color: ;
+  color: #cccaca;
+  padding-left: 3px;
 }
 /* サンクスページ */
 .thanks-page__wrapper{

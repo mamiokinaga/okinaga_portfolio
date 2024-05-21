@@ -25,7 +25,7 @@ h1 picture .header__logo-sp{
   justify-content: space-between;
   width: 100%;
   padding: 40px 3% 13px 2%;
-  align-items: center;
+  /* align-items: center; */
   position: fixed;
   top: 0;
   z-index: 100;
@@ -233,6 +233,7 @@ footer h1 picture img{
 }
 #header .header__nav-sp{
   position: absolute;
+  top: 0;
   width: 83%;
   height: 100vh;
   background-color:rgba(255, 255, 255, 0.8);
