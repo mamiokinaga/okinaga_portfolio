@@ -44,13 +44,11 @@ box-shadow: 2.5px 2.5px 10px #ddd9d9;
 }
 #main-visual ul{
   margin: 60px auto 200px;
-  /* font-family: "Yu Gothic Pr6N R"; */
   font-family: Yu Gothic Pr6N R;
 }
 #main-visual ul li{
   display: flex;
   padding: 40px 0px;
-  /* align-items: center; */
   border-bottom: solid #c7c5c4 0.25px;
 }
 #main-visual ul li .subtitle{

@@ -285,7 +285,7 @@ img.grayscale-sky {
 .frame img {
   width: 400px;
 }
-.is-active .frame01{
+/* .is-active .frame01{
   animation: revealPane 3s forwards;
   animation-delay: 0s;
   opacity: 0;
@@ -297,9 +297,9 @@ img.grayscale-sky {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: revealPane 3s forwards;
-  animation-delay: 1.5s;
+   animation-delay: 1.5s; 
   opacity: 0;
-}
+} */
 .portrait {
   margin-left: 16px;
 }
@@ -509,6 +509,9 @@ img.grayscale-sky {
   font-size: 30px;
   font-weight: 400;
 }
+.special-thanks__name{
+  margin-right: 15px;
+}
 .special-thanks__text {
   position: absolute;
   display: flex;
@@ -516,18 +519,29 @@ img.grayscale-sky {
   margin-top: 20%;
   left: 6%;
 }
+.special-thanks__text ul{
+  /* display: flex; */
+  text-align: center;
+}
 .special-thanks__text ul li {
-  margin-top: 12%;
+  display: flex;
+  margin-top: 10%;
   font-size: 20px;
+  align-items: baseline;
+}
+.special-thanks__text ul li img{
+  width: 18px;
+  vertical-align: baseline;
 }
 .instagram-url {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   font-weight: 600;
 }
 .instagram-url span {
-  font-family: "游ゴシック体 Pr6N R";
-  font-size: 14px;
-  margin-left: 10px;
+  /* font-family: "游ゴシック体 Pr6N R"; */
+  font-size: 17px;
+  color: #2d2d2d;
+  /* margin-left: 10px; */
 }
 
 /* special thanks 767以下はここから読み込み */
@@ -543,19 +557,20 @@ img.grayscale-sky {
     font-size: 20px;
   }
   .special-thanks__text {
-    margin-top: 35%;
+    margin-top: 150px;
   }
   .special-thanks__text ul li {
     margin-top: 12%;
     font-size: 14px;
+    flex-direction: column;
   }
   .instagram-url {
     padding-top: 10px;
     font-weight: 600;
   }
   .instagram-url span {
-    font-size: 12px;
-    margin-left: 10px;
+    font-size: 14px;
+    /* margin-left: 10px; */
   }
   #special-thanks .special-thanks_image img {
     width: 100%;
@@ -606,7 +621,7 @@ textarea {
 }
 ::placeholder{
   color: #cccaca;
-  padding-left: 3px;
+  padding-left: 10px;
 }
 /* サンクスページ */
 .thanks-page__wrapper{
