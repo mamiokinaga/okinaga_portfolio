@@ -285,6 +285,12 @@ img.grayscale-sky {
 .frame img {
   width: 400px;
 }
+.frame01 {
+  width: 400px;
+}
+.frame02{
+  width: 440px;
+}
 /* .is-active .frame01{
   animation: revealPane 3s forwards;
   animation-delay: 0s;
