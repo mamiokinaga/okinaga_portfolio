@@ -258,7 +258,7 @@ footer h1 picture img{
 /* #profile h3, */
 h3{
   position: relative;
-  margin-top: 280px;
+  margin-top: 210px;
 }
 /* #profile h3 img, */
 h3 img{
@@ -275,6 +275,9 @@ h3 p{
 }
 /* ロゴ 共通部分767px以下はここから読み込み */
 @media screen and (max-width: 767px){
+  h3{
+    margin-top: 108px;
+  }
   h3 img{
   width:  170px;
 }
