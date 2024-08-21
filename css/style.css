@@ -371,7 +371,7 @@ img.grayscale-sky {
 /* プロフィール767px以下はここから読み込み */
 @media screen and (max-width: 767px) {
   #profile{
-    margin-top: -176px;
+    margin-top: -64px;
   }
   .portrait__wrapper {
     display: block;
