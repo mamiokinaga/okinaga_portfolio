@@ -275,6 +275,9 @@ img.grayscale-sky {
   /* gap: 4%; */
   max-width: 1000px;
 }
+.portrait__inner{
+  position: relative;
+}
 .frame {
   position: absolute;
 }
@@ -282,13 +285,17 @@ img.grayscale-sky {
   opacity: 0;
 }
 .frame img {
-  width: 400px;
+  /* width: 400px; */
 }
 .frame01 {
-  width: 400px;
+  width: 399px;
 }
 .frame02{
-  width: 440px;
+  position: absolute;
+  left: 6%;
+  right: 2%;
+  top: 4%;
+  width: 352px;
 }
 /* .is-active .frame01{
   animation: revealPane 3s forwards;
@@ -309,12 +316,13 @@ img.grayscale-sky {
   margin-left: 16px;
 }
 .portrait img {
-  width: 370px;
+  width: 371px;
 }
 .text__wrapper {
   font-size: 30px;
   margin-left: 5%;
 }
+
 .text__wrapper .name {
   font-size: 1.875rem;
   margin-bottom: 40px;
