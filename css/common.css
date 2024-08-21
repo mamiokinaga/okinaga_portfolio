@@ -4,9 +4,9 @@
 body {
   background-image: url(../images/background.jpg);
   background-repeat: repeat;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(226, 221, 221, 0.9);
   background-blend-mode: screen;
-  background-size: 500px;
+  background-size: 250px;
  }
 
  /* ヘッダー */
