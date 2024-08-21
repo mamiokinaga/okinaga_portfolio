@@ -293,7 +293,6 @@ h3 p{
   h3{
     margin-top: 100px;
     font-size: 48px;
-    
   }
   h3 img{
   width:  170px;
@@ -394,6 +393,7 @@ footer .footer__sp-logo{
   
  footer .back-to-top_button{
     padding: 9%, 20px;
+    margin: 52px 3.5% 60px;
  }
 
   footer .footer__inner{
