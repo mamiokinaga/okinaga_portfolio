@@ -291,14 +291,14 @@ h3 p{
 /* ロゴ 共通部分767px以下はここから読み込み */
 @media screen and (max-width: 767px){
   h3{
-    margin-top: 100px;
+    margin-top: 88px;
     font-size: 48px;
   }
   h3 img{
   width:  170px;
 }
   h3 p{
-  font-size: 47px;
+  font-size: 40px;
   font-weight: 400;
   margin-bottom: 40px;
 }
@@ -402,9 +402,9 @@ footer .footer__sp-logo{
     margin-bottom: 0;
   }
 
-  footer nav ul li{
+  /* footer nav ul li{
     padding-bottom: 26px;
-  }
+  } */
 
   footer nav ul{
     flex-wrap: wrap;
