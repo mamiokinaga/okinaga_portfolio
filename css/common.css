@@ -4,12 +4,10 @@
 body {
   background-image: url(../images/background.jpg);
   background-repeat: repeat;
-  background-color: rgba(255, 255, 255, 0.57);
+  background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: screen;
   background-size: 500px;
  }
-  
- 
 
  /* ヘッダー */
 /* トップロゴ */
@@ -25,7 +23,6 @@ h1 picture .header__logo-sp{
   justify-content: space-between;
   width: 100%;
   padding: 40px 3% 13px 2%;
-  /* align-items: center; */
   position: fixed;
   top: 0;
   z-index: 100;
@@ -110,6 +107,7 @@ color:white;
   transform: scale(0, 1);/*X方向0、Y方向1*/
   transform-origin: left top;/*左上基点*/
 }
+
 .header_nav_main-page li a::after{
   background: white;
 }
@@ -122,17 +120,18 @@ color:white;
   transform: scale(1, 1);/*X方向にスケール拡大*/
 }
 
-
 /* ナビゲーションメニューの背景に色を付ける */
 header .change-color-point{
   position: absolute;
   top: 120px;
 }
+
 header .change-color{
   background-color: #cccccc; 
   opacity: 0.75;
   transition: 2s;
 }
+
 header .change-color_works{
   background-color: white; 
   opacity: 0.9;
@@ -153,19 +152,23 @@ header .change-color_works{
 header .change-color{
   background-color: transparent;
 }
+
 header picture img,
 footer h1 picture img{
   width: 150px;
 }
+
 .header__inner{
   padding: 10px 2% 10px 2%;
   top: 0;
 }
+
 /* ハンバーガーメニュー */
 #header .header_nav,
 .header_nav_works{
   display: none;
 }
+
 #header .hamburger,
 #header .hamburger__works{
   display: block;
@@ -178,6 +181,7 @@ footer h1 picture img{
   transition: 0.5s;
   cursor: pointer;
 }
+
 #header .hamburger span,
 #header .hamburger__works span{
   position: absolute;
@@ -188,9 +192,11 @@ footer h1 picture img{
   top: 16px;
   transition: 0.5s;
 }
+
 #header .hamburger__works span{
   background-color: #333;
 }
+
 #header .hamburger span::before,
 #header .hamburger__works span::before{
   position: absolute;
@@ -202,9 +208,11 @@ footer h1 picture img{
   bottom: -12px;
   transition: 0.5s;
 }
+
 #header .hamburger__works span::before{
   background-color: #333;
 }
+
 #header .hamburger span::after,
 #header .hamburger__works span::after{
   position: absolute;
@@ -216,21 +224,26 @@ footer h1 picture img{
   bottom: 12px;
   transition: 0.5s;
 }
+
 #header .hamburger__works span::after{
   background-color: #333;
 }
+
 #header .open span{
   background-color: transparent;
 }
+
 #header .open span::before{
   width: 32px;
   transform: rotate(45deg);
   top: 0;
 }
+
 #header .open span::after{
   transform: rotate(-45deg);
   bottom: 0;
 }
+
 #header .header__nav-sp{
   position: absolute;
   top: 0;
@@ -239,6 +252,7 @@ footer h1 picture img{
   background-color:rgba(255, 255, 255, 0.8);
   z-index: 110;
 }
+
 #header .header__nav-sp ul{
   display: flex;
   gap: 42px;
@@ -248,6 +262,7 @@ footer h1 picture img{
   margin-top: 40%;
   margin-left: 13%;
 }
+
 #header .header__nav-sp ul li{
   font-size: 22px;
   z-index: 9999;
@@ -255,28 +270,30 @@ footer h1 picture img{
 }
 
 /* ロゴ 共通部分 */
-/* #profile h3, */
+
 h3{
   position: relative;
   margin-top: 210px;
 }
-/* #profile h3 img, */
+
 h3 img{
   width: 266px;
   position: absolute;
   bottom: 0;
   z-index: -1;
 }
-/* #profile h3 p, */
+
 h3 p{
-  font-size: 4.5rem;
-  font-weight: 400;
   margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 400;
 }
 /* ロゴ 共通部分767px以下はここから読み込み */
 @media screen and (max-width: 767px){
   h3{
-    margin-top: 108px;
+    margin-top: 100px;
+    font-size: 48px;
+    
   }
   h3 img{
   width:  170px;
@@ -294,14 +311,17 @@ footer .back-to-top_button{
   margin: 200px 3.5% 100px;
   padding: 5px 5px;
 }
+
 footer .back-to-top_button a{
   padding-bottom: 7px;
 }
+
 footer .back-to-top_button span{
   position: relative;
   display: inline-block;
   padding-left: 20px;
 }
+
 footer .back-to-top_button span::before{
     content: '';
     width: 10px;
@@ -322,9 +342,11 @@ footer .back-to-top_button span::before{
 footer h1 img{
   width: 368px;
 }
+
 footer h1 picture .footer__logo-sp{
   width: 200px;
 }
+
 footer .footer__inner{
   display: flex;
   justify-content: space-between;
@@ -335,18 +357,22 @@ footer .footer__inner{
   align-items: center;
   z-index: 100;
 }
+
 footer nav ul{
   display: flex;
   gap: 40px;
   font-size: 16px;
 }
+
 footer nav ul li{
   line-height: 1.5;
 }
+
 footer .footer__img{
   width: 100%;
   position: relative;
 }
+
 footer .footer__img .copyright{
   position: absolute;
   right: 0;
@@ -357,6 +383,7 @@ footer .footer__img .copyright{
   align-items: center;
   font-size: 10px;
 }
+
 footer .footer__sp-logo{
   display: none;
 }
@@ -368,20 +395,24 @@ footer .footer__sp-logo{
  footer .back-to-top_button{
     padding: 9%, 20px;
  }
+
   footer .footer__inner{
     display: block;
     padding-bottom: 0;
     margin-bottom: 0;
   }
+
   footer nav ul li{
     padding-bottom: 26px;
   }
+
   footer nav ul{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     gap: 8%;
   }
+
   footer h1{
     text-align: center;
     padding-bottom: 45px;
