@@ -317,8 +317,8 @@ img.grayscale-sky {
 }
 .text__wrapper .name {
   font-size: 1.875rem;
-  margin-bottom: 4%;
-  margin-top: 6%;
+  margin-bottom: 40px;
+  margin-top: 24px;
 }
 #profile .text,
 #profile .text__more{
@@ -376,7 +376,7 @@ img.grayscale-sky {
     display: block;
   }
   .text__wrapper .name {
-    padding-top: 35px;
+    /* padding-top: 35px; */
     margin-bottom: 40px;
   }
   #profile .text,
@@ -420,7 +420,7 @@ img.grayscale-sky {
   box-shadow: 2.5px 2.5px 10px #e6e6e6;
   text-align: center;
   align-items: center;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 #works ul {
   display: flex;
@@ -478,7 +478,7 @@ img.grayscale-sky {
   #works ul li {
     display: block;
     align-items: center;
-    margin-bottom: 78px;
+    margin-bottom: 56px;
   }
 }
 
