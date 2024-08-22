@@ -276,10 +276,10 @@ img.grayscale-sky {
   max-width: 1000px;
 }
 .portrait__inner{
-  position: relative;
+  /* position: relative; */
 }
 .frame {
-  position: absolute;
+  position: relative;
 }
 .is-active .frame{
   opacity: 0;
@@ -289,13 +289,42 @@ img.grayscale-sky {
 }
 .frame01 {
   width: 399px;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  /* animation-delay: s; */
+  opacity: 0;
+  z-index: 10;
 }
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 .frame02{
   position: absolute;
   left: 6%;
   right: 2%;
   top: 4%;
   width: 352px;
+  animation-name: fadeIn2;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  z-index: 10;  
+}
+@keyframes fadeIn2{
+ 0%{
+  opacity: 0;
+}
+100%{
+ opacity: 1;
+}
 }
 /* .is-active .frame01{
   animation: revealPane 3s forwards;
@@ -313,10 +342,27 @@ img.grayscale-sky {
   opacity: 0;
 } */
 .portrait {
+  animation-name: fadeIn3;
+  animation-duration: 5.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
   margin-left: 16px;
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+@keyframes fadeIn3{
+0%{
+  opacity: 0;
+}
+100%{
+  opacity: 1;
+}
 }
 .portrait img {
   width: 371px;
+  z-index: -5;
 }
 .text__wrapper {
   font-size: 30px;
