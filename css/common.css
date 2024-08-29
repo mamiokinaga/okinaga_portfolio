@@ -149,7 +149,7 @@ header .change-color_works{
 1100ｐｘ以下はここから読み込み
 共通 */
 @media screen and (max-width:1100px){
-header .change-color{
+.header .change-color{
   background-color: transparent;
 }
 
