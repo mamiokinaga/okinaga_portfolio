@@ -52,7 +52,7 @@ svg{
   stroke-width: 17;
   stroke-dasharray: 4000px;
   stroke-dashoffset: 4000px;
-  animation: writeanime 5s ease-out forwards;
+  animation: writeanime 3s linear forwards;
 }
 @keyframes writeanime {
   from {
@@ -106,13 +106,13 @@ img.grayscale {
   position: absolute;
   top: 0;
   display: block;
-  animation: grayscale 3s forwards;
-  animation-delay: 5s;
+  animation: grayscale 2s forwards;
+  animation-delay: 0s;
   filter: grayscale(100%);
 }
 img.grayscale-sky {
-  animation: grayscale 4s forwards;
-  animation-delay: 3s;
+  animation: grayscale 2s forwards;
+  animation-delay: .8s;
   filter: grayscale(100%);
 }
 @keyframes grayscale {
@@ -165,7 +165,7 @@ img.grayscale-sky {
   display: flex;
   justify-content: space-between;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 152px auto;
   align-items: end;
   position: relative;
   padding-top: 28%;
@@ -280,6 +280,7 @@ img.grayscale-sky {
 }
 .frame {
   position: relative;
+  width: 400px;
 }
 .is-active .frame{
   opacity: 0;
@@ -292,7 +293,7 @@ img.grayscale-sky {
   animation-name: fadeIn;
   animation-duration: 3s;
   animation-fill-mode: forwards;
-  /* animation-delay: s; */
+  animation-delay: .5s;
   opacity: 0;
   z-index: 10;
 }
@@ -307,14 +308,17 @@ img.grayscale-sky {
 
 .frame02{
   position: absolute;
-  left: 6%;
+  /* left: 6%;
   right: 2%;
-  top: 4%;
+  top: 4%; */
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%)translateX(-50%);
   width: 352px;
   animation-name: fadeIn2;
   animation-duration: 3s;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   opacity: 0;
   z-index: 10;  
 }
@@ -345,7 +349,7 @@ img.grayscale-sky {
   animation-name: fadeIn3;
   animation-duration: 5.5s;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
   margin-left: 16px;
   z-index: -10;
   position: absolute;
@@ -475,6 +479,12 @@ img.grayscale-sky {
   text-align: center;
   align-items: center;
   margin-bottom: 16px;
+}
+.works__hairsalon:hover{
+  box-shadow: 2.5px 2.5px 10px #2f2e2e;
+ /* transform: scale(1.1,1.1); */
+ transition: .8s;
+
 }
 #works ul {
   display: flex;
