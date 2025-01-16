@@ -121,7 +121,25 @@ box-shadow: 2.5px 2.5px 10px #ddd9d9;
 }
 /* cafe内容説明文*/
 #main-visual .description__cafe{
+  position: relative;
   max-width: 640px;
+}
+.go-to-homepage{
+  display: block;
+  position: relative;
+  text-align: right;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+.go-to-homepage p::after{
+  position: absolute;
+  content: "";
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #333;
+  border-right: 1px solid #333;
+  transform: rotate(45deg);
 }
 /* trip内容説明文*/
 #main-visual .description__trip-banner{
