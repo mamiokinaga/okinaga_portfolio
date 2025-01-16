@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGN CAFE</title>
+
+    <!-- reset.css読み込み -->
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+
+    <!--style.css読み込み  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./img">
+
+
+    <!-- jquery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script href="./js/lightbox-plus-jquery.min.js"></script>
+
+    <!-- lightbox読み込み -->
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+
+
+
+
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header id="header">
+        <div class="header_inner">
+            <h1>
+                <a href="./index.html">
+                    <img src="./images/design_cafe_logo_header@2x.png" alt="design cafe">
+                </a>
+            </h1>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#event">EVENT</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburger">
+            <span></span>
+        </div>
+
+        <!-- SP用 -->
+        <nav class="header_nav-sp">
+            <ul>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#menu"></a>MENU</li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#event">EVENT</a></li>
+                <li><a href="#access">ACCESS</a></li>
+            </ul>
+        </nav>
+
+        <!-- トップスライダー画像 -->
+        <div class="slider">
+            <picture>
+                <source srcset="./images/sp_main_vs@2x-100.jpg" media="(max-width: 767px)">
+                <img src="./images/pc_first-100.jpg" alt="カフェ店内の様子の写真">
+            </picture>
+            <!-- <picture> -->
+            <picture>
+                <source srcset="./images/sp_main_vs_2@2x-100.jpg" media="(max-width: 767px)">
+                <img src="./images/slider_2.jpg" alt="カフェ店内の様子の写真">
+            </picture>
+        </div>
+    </header>
+
+    <!-- メイン-->
+    <section id="main_top">
+        <div class="main">
+            <p class="main_text">Have a happy day From a cup of coffee.</p>
+            <h2>ハッピーに溢れる1日を <br>1杯のコーヒーから。</h2>
+            <p class="main_text2">毎日を丁寧に大切に過ごしたい。だからこそ一杯一杯丁寧にコーヒーを入れ<br>
+                足を運んでくれるお客さんには落ち着く空間とこだわりのコーヒーを提供したい。
+            </p>
+            <p class="main_text2-sp">毎日を丁寧に大切に過ごしたい。<br>だからこそ一杯一杯丁寧にコーヒーを入れ<br>
+                足を運んでくれるお客さんには落ち着く空間とこだわりのコーヒーを提供したい。
+            </p>
+        </div>
+    </section>
+
+    <!--私たちについて-->
+    <section id="aboutus">
+        <div class="aboutus_wrapper">
+            <p class="aboutus_img">
+                <picture>
+                    <img src="./images/pc_about-100.jpg" alt="デザインカプチーノ画像">
+                </picture>
+            </p>
+            <div class="aboutus_inner">
+                <h3>
+                    <p class="aboutuslogo_img"><img src="./images/about_us@2x.png" alt="ロゴ"></p>
+                </h3>
+                <p class="subtitle">私たちが提供する<br>こだわりのコーヒー</p>
+                <p class="subtitle_text">
+                    サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 私たちについて SP用 -->
+    <section id="aboutus-sp">
+        <div class="aboutus-sp_wrapper">
+            <h3>
+                <p class="aboutuslogo-sp_img"><img src="./images/about_us@2x.png" alt="ロゴ"></p>
+            </h3>
+            <p class="aboutus-sp_img">
+                <picture>
+                    <img src="./images/about_us@2x-100.jpg" alt="デザインカプチーノ画像">
+                </picture>
+            </p>
+            <div class="aboutus-sp_inner">
+                <p class="subtitle-sp">私たちが提供する<br>こだわりのコーヒー</p>
+                <p class="subtitle_text-sp">
+                    サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- メニュー-->
+    <section id="menu">
+        <h3><img src="./images/menu@2x.png" alt="メニュー"></h3>
+
+        <div class="menu_wrapper">
+            <div class="menu_detail">
+                <img src="./images/drink_sp@2x-100.jpg" alt="ドリンクの画像">
+                <div class="sub_menu">
+                    <p class="sub_menu_inner">Drink</p>
+                    <p class="text">ドリンクメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。</p>
+                </div>
+            </div>
+
+            <div class="menu_detail">
+                <img src="./images/food_sp@2x-100.jpg" alt="フードの画像">
+                <div class="sub_menu">
+                    <p class="sub_menu_inner">Food</p>
+                    <p class="text">スイーツメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。</p>
+                </div>
+            </div>
+
+            <div class="menu_detail">
+                <img src="./images/cake_sp@2x-100.jpg" alt="ケーキの画像">
+                <div class="sub_menu">
+                    <p class="sub_menu_inner">Sweets</p>
+                    <p class="text">ドリンクメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--フォトギャラリー GALLERY-->
+    <section id="gallery">
+        <h3><img src="./images/gallery@2x.png" alt="フォトギャラリー画像"></h3>
+        <div class="gallery_inner">
+            <a href="./images/pc_gallary_05-100.jpg" data-lightbox="01"><img src="./images/pc_gallary_05-100.jpg"
+                    alt="店内様子画像"></a>
+            <a href="./images/pc_gallary_01-100.jpg" data-lightbox="01"><img src="./images/pc_gallary_01-100.jpg"
+                    alt="デザインカプチーノ画像"></a>
+            <a href="./images/pc_gallary_04-100.jpg" data-lightbox="01"><img src="./images/pc_gallary_04-100.jpg"
+                    alt="コーヒー豆画像"></a>
+            <a href="./images/pc_gallary_03-100.jpg" data-lightbox="01"><img src="./images/pc_gallary_03-100.jpg"
+                    alt="店内様子画像"></a>
+            <a href="./images/pc_gallary_02-100.jpg" data-lightbox="01"><img src="./images/pc_gallary_02-100.jpg"
+                    alt="店内雰囲気画像"></a>
+            <a href="./images/pc_gallary_01-100.jpg" data-lightbox="01"><img src="./images/pc_gallary_01-100.jpg"
+                    alt="デザインカプチーノ画像"></a>
+        </div>
+
+
+        <!-- <div class="gallery_inner">
+            <img src="./images/pc_gallary_05-100.jpg" alt="店内様子画像">
+            <img src="./images/pc_gallary_01-100.jpg" alt="デザインカプチーノ画像">
+            <img src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆画像">
+            <img src="./images/pc_gallary_03-100.jpg" alt="店内様子画像">
+            <img src="./images/pc_gallary_02-100.jpg" alt="店内雰囲気画像">
+            <img src="./images/pc_gallary_01-100.jpg" alt="デザインカプチーノ画像">
+        </div> -->
+        <div class="gallery_inner-sp"><img src="./images/pc_gallary_03-100.jpg" alt="店内様子画像">
+            <img src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆画像">
+            <img src="./images/pc_gallary_03-100.jpg" alt="店内様子画像">
+            <img src="./images/pc_gallary_02-100.jpg" alt="店内雰囲気画像">
+            <img src="./images/pc_gallary_01-100.jpg" alt="デザインカプチーノ画像">
+        </div>
+    </section>
+
+    <!--イベント情報  -->
+    <section id="event">
+        <h3><img src="./images/event@2x.png" alt="イベントロゴ"></h3>
+        <div class="event_inner">
+            <nav>
+                <ul>
+                    <li>
+                        <p>2020.06.23</p>
+                        <p class="news"><span>7月はイベント出店のため0/0お休みします</span></p>
+                    </li>
+                    <li>
+                        <p>2020.03.15</p>
+                        <p class="news"><span>春の新商品新発売。話題のあのブランドとコラボ</span></p>
+                    </li>
+                    <li>
+                        <p>2020.02.06</p>
+                        <p class="news"><span>コーヒーの日で30％OFFイベントを開催［3日間限定］</span></p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- アクセス MAP-->
+    <section id="access">
+        <div class="accesslogo">
+            <h3>
+                <img src="./images/access@2x.png" alt="アクセスロゴ">
+            </h3>
+        </div>
+        <div class="googlmap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.546891683883!2d7.274182644171563!3d48.099684992620176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791614ff1229f59%3A0x3bcc9f527f2e27ff!2sMaison%20Ferber!5e0!3m2!1sja!2sjp!4v1707627884757!5m2!1sja!2sjp"
+                width="1000px" height="471" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <section id="footer">
+        <div class="footer">
+            <div class="footer_inner">
+                <img src="./images/design_cafe_logo_footer@2x.png" alt="デザインカフェロゴ画像">
+                <div class="adress">
+                    <p>OPEN 18:00 / CLOSE 24:00 <br>
+                        〒150-0022 <br>
+                        東京都渋谷区東京南123デザインビルB1 <br>
+                        MAIL：info@designcafe.tokyo
+                    </p>
+                </div>
+            </div>
+            <!-- コピーライト -->
+        </div>
+        <p class="copyright">
+            © 2021 DESIGN CAFE
+        </p>
+    </section>
+    <!-- トップに戻るボタン -->
+
+    <div class="totoptpbtn">
+        <p>
+            <a href="header"><img src="./images/to_top@2x.png" alt="トップに戻る"></a>
+        </p>
+    </div>
+
+    <!-- jquery読み込み -->
+    <script>
+        $(function () {
+            $(".hamburger").on("click", function () {
+                $(".hamburger").toggleClass("open");
+                $(".header_nav-sp").fadeToggle();
+            });
+        });
+
+        $(function () {
+            $(".slider").slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                dots: true
+            });
+        });
+
+        $(function () {
+            $(".gallery_inner").slick({
+                arrows: false,
+                slidesToShow: 5,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToScroll: 4,
+            });
+        });
+
+        $(function () {
+            $(".gallery_inner-sp").slick({
+                arrows: false,
+                // autoplay: true,
+                // autoplaySpeed: 2000,
+                // slidesToShow: 1,
+                dots: true,
+
+
+            });
+        });
+    </script>
+
+    <script href="./js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+
+</html>
